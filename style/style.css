@@ -1,0 +1,175 @@
+/*estilo del Titulo*/
+
+h1{
+    color:rgba(228, 235, 17, 0.964);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Estilo de subtitulo*/
+
+.texto1{
+    color: rgb(90, 90, 90);
+    text-align: center;
+    background-color: rgb(227, 221, 214);
+    font-size: 30px;
+}
+
+.texto2{
+    color: blueviolet;
+
+}
+
+.texto3{
+    color: rgb(17, 17, 17);
+    background-color: rgb(180, 174, 242);
+    text-align: center;
+}
+
+.segunda{
+    background-color: rgb(237, 234, 239);
+    }
+
+.segunda img{
+    width: 400px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartel{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.bazar{
+    display: flex;
+    gap: 10px;
+    width: 50px;
+    height:auto ;
+}
+.piedepagina{
+    background-color: rgb(167, 165, 163);
+}
+.piedepagina p{
+    text-align: center;
+}
+
+/*Nuestros Lotes*/
+
+
+.hogar{
+    background-color: aquamarine;
+    text-align: center; }
+
+.muebles{
+    background-color: rgb(110, 197, 197);
+    text-align: center;
+}   
+
+.eletrodomesticos{
+    background-color: rgb(222, 194, 249);
+    text-align: center;
+   
+}
+
+.herramientas{
+    background-color: rgb(121, 209, 114);
+    text-align: center;
+   
+}
+
+.nuestros{
+    background-color: rgb(175, 170, 170);
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/*Contatos*/
+
+.Numero{
+background-color: rgb(226, 226, 179);
+}
+.Numero h3{
+    color: rgb(2, 2, 73);
+}
+
+/*Nuestros Inmuebles*/
+
+.Inmueblespie{
+    background-color: beige;
+}
+
+/*Nosotro*/
+.nosotros h1{
+    background-color: chartreuse;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+header{
+    padding: 10px 0;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   min-height: 100px;
+
+
+}
+
+nav a{
+    align-items: center;
+    color: antiquewhite;
+    gap: 300px;
+    text-decoration: none;
+    gap: 100px;
+}
+
+main{
+    display: grid;
+}
+
+.ofera{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+}
+
+nav a:hover{
+    background-color: brown;
+    color: black;
+    box-shadow: 1px 2px 5px blue;
+
+}
+
+button:active{
+    background-color: blueviolet;
+    color: antiquewhite;
+    box-shadow: 1px 3px 5px black
+
+}
+
+@media (max-width: 500px){
+    header{
+     flex-direction: column;
+    }

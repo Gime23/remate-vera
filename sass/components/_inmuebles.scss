@@ -1,0 +1,122 @@
+@use "../utilites/mixin"as *;
+
+/*...............Inmuebles..........*/
+.inmueble{
+    color:  rgb(82, 168, 45)
+}
+.oferta{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+
+.Inmueblespie{
+    background-color: rgb(213, 215, 215) ;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+
+.casa{
+ @include casa; 
+}
+
+.casa img{
+ @include img;
+}
+
+.casa:hover{
+ @include hover; 
+}
+
+
+.casa2{
+   @include casa;
+}
+
+.casa2 img{
+ @include img; 
+}
+.casa2:hover{
+     @include hover;
+}
+
+
+.casa3{
+  @include casa;
+}
+
+.casa3 img{
+  @include img;   
+}
+.casa3:hover{
+     @include hover;
+}
+
+
+.casa4{
+  @include casa;
+}
+
+.casa4 img{
+   @include img; 
+}
+.casa4:hover{
+      @include hover;
+}
+
+
+.casa5{
+    @include casa;
+}
+.casa5 img{
+ @include img;
+}
+.casa5:hover{
+      @include hover;
+}
+
+
+.casa6{
+    @include casa;
+}
+.casa6 img{
+  @include img; 
+}
+.casa6:hover{
+      @include hover;
+}
+
+.casa7{
+    @include casa;
+}
+.casa7 img{
+  @include img; 
+}
+.casa7:hover{
+      @include hover;
+}
+.casa9{
+    @include casa;
+}
+.casa9 img{
+  @include img; 
+}
+.casa9:hover{
+     @include hover;
+}
+
+.casa10{
+@include casa;
+}
+.casa10 img{
+  @include img;  
+}
+.casa10:hover{
+    @include hover;
+}

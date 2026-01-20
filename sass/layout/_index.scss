@@ -1,0 +1,100 @@
+/*................index...............*/
+
+.texto1{
+    color: rgb(77, 75, 75);
+    text-align: center;
+    background-color: rgb(227, 221, 214);
+    font-size: 20px;
+}
+
+.texto2 h2{
+    color: rgb(1, 10, 73);
+    text-align: center;
+}
+.texto2 p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.texto2 img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 1500px;
+    
+}
+.texto3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 174, 242);
+    text-align: center;
+}
+
+.destacado{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: center;
+    justify-items: center;
+}
+.segunda1{
+    background-color: rgb(238, 239, 253);
+    border: 1px solid rgb(180, 180, 239);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.segunda1 h3{
+    text-align: center;
+}
+.segunda1 img{
+    width: 100%;
+}
+.segunda1:hover{
+    transform: translateY(-30px);
+}
+
+
+.segunda2{
+    background-color: rgb(238, 239, 253);
+    border: 1px solid rgb(180, 180, 239);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.segunda2 h3{
+    text-align: center;
+}
+.segunda2 img{
+    width: 100%;
+}
+.segunda2:hover{
+    transform: translateY(-30px);
+}
+
+.segunda3{
+    background-color: rgb(238, 239, 253);
+    border: 1px solid rgb(180, 180, 239);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.segunda3 h3{
+    text-align: center;
+}
+.segunda3 img{
+    width: 100%;
+}
+.segunda3:hover{
+    transform: translateY(-30px);
+}
+
+
+.piedepagina{
+    background-color: rgb(213, 215, 215) ;
+}
+.piedepagina p{
+    text-align: center;
+}

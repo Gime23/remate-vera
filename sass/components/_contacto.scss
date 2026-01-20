@@ -1,0 +1,87 @@
+/*...............contacto..........*/
+
+.numero{
+max-width: 300px;
+margin: 20px auto;
+padding: 30px;
+background-color:#eae6e6;
+border-radius: 15px;
+text-align: center;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+border: 1px solid #f0f0f0;
+}
+.numero h3{
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.numero li{
+    display: block;
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 15px 0;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.numero li:hover{
+    transform: scale(1.1);
+}
+.numero p{
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.llegar{
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.llegar h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #131c25;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.llegar iframe{
+   display: block;
+   margin: 0 auto;
+   border-radius: 10px;
+   border: 1px solid #ccc;
+   overflow: hidden;
+}
+.redes{
+    background-color: rgb(213, 215, 215);
+    margin: 0;
+    padding: 5px;
+}
+ul{
+    background-color: rgb(213, 215, 215);
+    margin: 0;
+    text-decoration: none;
+    
+}
+ul :hover{
+    color: rgb(29, 6, 243);
+
+}
+li a{
+    margin-bottom: 5px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(10, 85, 6);
+}
+.atencion{
+    background-color:rgb(213, 215, 215);
+    margin: 0;
+    padding: 10px;
+}

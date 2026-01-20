@@ -1,0 +1,103 @@
+/*...............nuestros lotes..........*/
+
+.lotes-hogar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hogar{
+    flex: 1;
+    min-width: 200px;
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid rgb(163, 157, 157);
+    border-radius: 10px;
+}
+.hogar h2{
+    background-color: aqua;
+    padding: 15px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+}
+.hogar img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+    
+
+.muebles{
+    flex: 1;
+    min-width: 200px;
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid rgb(163, 157, 157);
+    border-radius: 10px;
+}  
+.muebles h2{
+    background-color: aqua;
+    padding: 15px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+} 
+.muebles img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.eletrodomesticos{
+    flex: 1;
+    min-width: 200px;
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid rgb(163, 157, 157);
+    border-radius: 10px;
+}  
+.eletrodomesticos h2{
+    background-color: aqua;
+    padding: 15px;
+    margin: 0; 
+    border-radius: 8px 8px 0 0;
+}
+.eletrodomesticos img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.herramientas{
+    flex: 1;
+    min-width: 200px;
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid rgb(163, 157, 157);
+    border-radius: 10px;
+}
+.herramientas h2{
+    background-color: aqua;
+    padding: 15px;
+    margin: 0; 
+    border-radius: 8px 8px 0 0;
+}
+.herramientas img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+li{
+    color: #024c1c;
+}
+.nuestros{
+    background-color: rgb(218, 214, 214);
+    display: flex;
+    flex-direction: column;
+   
+}

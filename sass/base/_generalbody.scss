@@ -1,0 +1,25 @@
+@use "../utilites/variables"as *;
+/*...............estilo del titulo..........*/
+h1{
+    color: $color-titulo;
+    text-align: center;
+    background-color: rgb(213, 210, 210);
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0;
+    padding: 8 0;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: $colo-fondo;
+    min-height: 100vh;
+    margin: 0;
+}

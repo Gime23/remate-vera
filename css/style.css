@@ -1,330 +1,356 @@
-/*estilo del Titulo*/
-
-h1{
-    color: rgb(82, 168, 45);
-    text-align: center;
-    background-color: rgb(213, 210, 210);
-    font-size: 40px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 0;
-    padding: 8 0;
-    line-height: 1.2;
-    padding-bottom: 10px;
-    margin-top: 0;
-    padding-top: 10px;
+/*...............estilo del titulo..........*/
+h1 {
+  color: rgb(82, 168, 45);
+  text-align: center;
+  background-color: rgb(213, 210, 210);
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 0;
+  padding: 8 0;
+  line-height: 1.2;
+  padding-bottom: 10px;
+  margin-top: 0;
+  padding-top: 10px;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background: linear-gradient(6deg,rgba(42, 123, 155, 1) 0%, rgba(148, 166, 227, 1) 34%, rgba(235, 236, 247, 1) 56%);
-    min-height: 100vh;
-    margin: 0;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(6deg, rgb(42, 123, 155) 0%, rgb(148, 166, 227) 34%, rgb(235, 236, 247) 56%);
+  min-height: 100vh;
+  margin: 0;
 }
 
-header{
-    padding: 10px 0;
-    top: 0px;
-    z-index: 100;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 100px;
-    position: sticky;
-  }
-
-  nav{
-    align-items: center;
-    color: rgb(202, 153, 37);
-    gap: 300px;
-    text-decoration: none;
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
+/*...............estilo del titulo..........*/
+header {
+  padding: 10px 0;
+  top: 0px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100px;
+  position: sticky;
 }
 
-nav a{
-    color: rgb(142, 154, 7);
-    text-decoration: none;
-    display: flex;
-    background-color: rgb(215, 210, 210);
-    font-size: 17px;
-    padding: 10px 20px;
-    border-radius: 50px;
-    display: inline-block;
-    transition: 1s;
-    font-weight: bold;
-}
-nav a:hover{
-    background-color: rgb(217, 11, 11);
-    color: black;
-    box-shadow: 1px 2px 5px rgb(1, 1, 55);
-    transform: scale(1.05);
+nav {
+  align-items: center;
+  color: rgb(202, 153, 37);
+  gap: 300px;
+  text-decoration: none;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
 }
 
-main{
-    display: grid;
+nav a {
+  color: rgb(142, 154, 7);
+  text-decoration: none;
+  display: flex;
+  background-color: rgb(215, 210, 210);
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: 1s;
+  font-weight: bold;
 }
 
-button:active{
-    background-color: blueviolet;
-    color: antiquewhite;
-    box-shadow: 1px 3px 5px black
-}
-/*index*/
-
-.texto1{
-    color: rgb(77, 75, 75);
-    text-align: center;
-    background-color: rgb(227, 221, 214);
-    font-size: 20px;
+nav a:hover {
+  background-color: rgb(217, 11, 11);
+  color: black;
+  box-shadow: 1px 2px 5px rgb(1, 1, 55);
+  transform: scale(1.05);
 }
 
-.texto2 h2{
-    color: rgb(1, 10, 73);
-    text-align: center;
-}
-.texto2 p{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.texto2 img{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    width: 1500px;
-    
-}
-.texto3{
-    color: rgb(0, 0, 0);
-    background-color: rgb(180, 174, 242);
-    text-align: center;
+/*...............estilo inicio..........*/
+main {
+  display: grid;
 }
 
-.destacado{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    justify-content: center;
-    justify-items: center;
-}
-.segunda1{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.segunda1 h3{
-    text-align: center;
-}
-.segunda1 img{
-    width: 100%;
-}
-.segunda1:hover{
-    transform: translateY(-30px);
+/*...............button oferta..........*/
+button:active {
+  background-color: blueviolet;
+  color: antiquewhite;
+  box-shadow: 1px 3px 5px black;
 }
 
-
-.segunda2{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.segunda2 h3{
-    text-align: center;
-}
-.segunda2 img{
-    width: 100%;
-}
-.segunda2:hover{
-    transform: translateY(-30px);
+/*................index...............*/
+.texto1 {
+  color: rgb(77, 75, 75);
+  text-align: center;
+  background-color: rgb(227, 221, 214);
+  font-size: 20px;
 }
 
-.segunda3{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.segunda3 h3{
-    text-align: center;
-}
-.segunda3 img{
-    width: 100%;
-}
-.segunda3:hover{
-    transform: translateY(-30px);
+.texto2 h2 {
+  color: rgb(1, 10, 73);
+  text-align: center;
 }
 
-
-.piedepagina{
-    background-color: rgb(213, 215, 215) ;
-}
-.piedepagina p{
-    text-align: center;
+.texto2 p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/*Nuestros Lotes*/
-
-.lotes-hogar{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+.texto2 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 1500px;
 }
 
-.hogar{
-    flex: 1;
-    min-width: 200px;
-    max-width: 350px;
-    text-align: center;
-    border: 1px solid rgb(163, 157, 157);
-    border-radius: 10px;
-}
-.hogar h2{
-    background-color: aqua;
-    padding: 15px;
-    margin: 0;
-    border-radius: 8px 8px 0 0;
-}
-.hogar img{
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-    
-
-.muebles{
-    flex: 1;
-    min-width: 200px;
-    max-width: 350px;
-    text-align: center;
-    border: 1px solid rgb(163, 157, 157);
-    border-radius: 10px;
-}  
-.muebles h2{
-    background-color: aqua;
-    padding: 15px;
-    margin: 0;
-    border-radius: 8px 8px 0 0;
-} 
-.muebles img{
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
+.texto3 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(180, 174, 242);
+  text-align: center;
 }
 
-.eletrodomesticos{
-    flex: 1;
-    min-width: 200px;
-    max-width: 350px;
-    text-align: center;
-    border: 1px solid rgb(163, 157, 157);
-    border-radius: 10px;
-}  
-.eletrodomesticos h2{
-    background-color: aqua;
-    padding: 15px;
-    margin: 0; 
-    border-radius: 8px 8px 0 0;
-}
-.eletrodomesticos img{
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-.herramientas{
-    flex: 1;
-    min-width: 200px;
-    max-width: 350px;
-    text-align: center;
-    border: 1px solid rgb(163, 157, 157);
-    border-radius: 10px;
-}
-.herramientas h2{
-    background-color: aqua;
-    padding: 15px;
-    margin: 0; 
-    border-radius: 8px 8px 0 0;
-}
-.herramientas img{
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
+.destacado {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: center;
+  justify-items: center;
 }
 
-li{
-    color: #024c1c;
-}
-.nuestros{
-    background-color: rgb(218, 214, 214);
-    display: flex;
-    flex-direction: column;
-   
+.segunda1 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
 }
 
-/*Contatos*/
+.segunda1 h3 {
+  text-align: center;
+}
 
-.numero{
-max-width: 300px;
-margin: 20px auto;
-padding: 30px;
-background-color:#eae6e6;
-border-radius: 15px;
-text-align: center;
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-border: 1px solid #f0f0f0;
+.segunda1 img {
+  width: 100%;
 }
-.numero h3{
-    color: #2c3e50;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+
+.segunda1:hover {
+  transform: translateY(-30px);
 }
-.numero li{
-    display: block;
-    list-style-type: none;
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin: 15px 0;
-    text-decoration: none;
-    transition: transform 0.3s ease;
+
+.segunda2 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
 }
-.numero li:hover{
-    transform: scale(1.1);
+
+.segunda2 h3 {
+  text-align: center;
 }
-.numero p{
-    color: #7f8c8d;
-    font-size: 0.9rem;
-    font-style: italic;
+
+.segunda2 img {
+  width: 100%;
 }
-.llegar{
-    padding: 40px 20px;
-    text-align: center;
-    max-width: 1000px;
-    margin: 0 auto;
+
+.segunda2:hover {
+  transform: translateY(-30px);
 }
-.llegar h2{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+
+.segunda3 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.segunda3 h3 {
+  text-align: center;
+}
+
+.segunda3 img {
+  width: 100%;
+}
+
+.segunda3:hover {
+  transform: translateY(-30px);
+}
+
+.piedepagina {
+  background-color: rgb(213, 215, 215);
+}
+
+.piedepagina p {
+  text-align: center;
+}
+
+/*...............nuestros lotes..........*/
+.lotes-hogar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hogar {
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
+  text-align: center;
+  border: 1px solid rgb(163, 157, 157);
+  border-radius: 10px;
+}
+
+.hogar h2 {
+  background-color: rgb(0, 238, 255);
+  padding: 15px;
+  margin: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.hogar img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.muebles {
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
+  text-align: center;
+  border: 1px solid rgb(163, 157, 157);
+  border-radius: 10px;
+}
+
+.muebles h2 {
+  background-color: aqua;
+  padding: 15px;
+  margin: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.muebles img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.eletrodomesticos {
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
+  text-align: center;
+  border: 1px solid rgb(163, 157, 157);
+  border-radius: 10px;
+}
+
+.eletrodomesticos h2 {
+  background-color: aqua;
+  padding: 15px;
+  margin: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.eletrodomesticos img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.herramientas {
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
+  text-align: center;
+  border: 1px solid rgb(163, 157, 157);
+  border-radius: 10px;
+}
+
+.herramientas h2 {
+  background-color: aqua;
+  padding: 15px;
+  margin: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.herramientas img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+li {
+  color: #024c1c;
+}
+
+.nuestros {
+  background-color: rgb(218, 214, 214);
+  display: flex;
+  flex-direction: column;
+}
+
+/*...............contacto..........*/
+.numero {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #eae6e6;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0f0f0;
+}
+
+.numero h3 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.numero li {
+  display: block;
+  list-style-type: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 15px 0;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.numero li:hover {
+  transform: scale(1.1);
+}
+
+.numero p {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.llegar {
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.llegar h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #131c25;
   font-size: 2rem;
   text-transform: uppercase;
@@ -334,262 +360,269 @@ border: 1px solid #f0f0f0;
   display: inline-block;
 }
 
-.llegar iframe{
-   display: block;
-   margin: 0 auto;
-   border-radius: 10px;
-   border: 1px solid #ccc;
-   overflow: hidden;
-}
-.redes{
-    background-color: rgb(213, 215, 215);
-    margin: 0;
-    padding: 5px;
-}
-ul{
-    background-color: rgb(213, 215, 215);
-    margin: 0;
-    text-decoration: none;
-    
-}
-ul :hover{
-    color: rgb(29, 6, 243);
-
-}
-li a{
-    margin-bottom: 5px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: rgb(10, 85, 6);
-}
-.atencion{
-    background-color:rgb(213, 215, 215);
-    margin: 0;
-    padding: 10px;
-}
-/*Nuestros Inmuebles*/
-.inmueble{
-    color:  rgb(82, 168, 45)
-}
-.oferta{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 100px;
-    max-width: 1200px;
-    margin: 0;
-    padding: 0 20px;
+.llegar iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
 }
 
-
-.Inmueblespie{
-    background-color: rgb(213, 215, 215) ;
-    max-width: 1200px;
-    margin: 0;
-    padding: 0 20px;
+.redes {
+  background-color: rgb(213, 215, 215);
+  margin: 0;
+  padding: 5px;
 }
 
-
-.casa{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa img{
-    width: 100%;
-    border-radius: 8px 8px 0 0;
+ul {
+  background-color: rgb(213, 215, 215);
+  margin: 0;
+  text-decoration: none;
 }
 
-.casa:hover{
-    transform: translateY(-5px); 
+ul :hover {
+  color: rgb(29, 6, 243);
 }
 
-
-.casa2{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa2 img{
-   width: 100%;
-   border-radius: 8px 8px 0 0; 
-}
-.casa2:hover{
-    transform: translateY(-5px); 
+li a {
+  margin-bottom: 5px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: rgb(10, 85, 6);
 }
 
-
-.casa3{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
+.atencion {
+  background-color: rgb(213, 215, 215);
+  margin: 0;
+  padding: 10px;
 }
-.casa3 img{
+
+/*...............Inmuebles..........*/
+.inmueble {
+  color: rgb(82, 168, 45);
+}
+
+.oferta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.Inmueblespie {
+  background-color: rgb(213, 215, 215);
+  max-width: 1200px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.casa {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.casa img {
   width: 100%;
-  border-radius: 8px 8px 0 0;   
-}
-.casa3:hover{
-    transform: translateY(-5px); 
+  border-radius: 8px 8px 0 0;
 }
 
-
-.casa4{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa4 img{
-   width: 100%;
-   border-radius: 8px 8px 0 0; 
-}
-.casa4:hover{
-    transform: translateY(-5px); 
+.casa:hover {
+  transform: translateY(-5px);
 }
 
-
-.casa5{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa5 img{
-   width: 100%;
-   border-radius: 8px 8px 0 0; 
-}
-.casa5:hover{
-    transform: translateY(-5px); 
+.casa2 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
 }
 
-
-.casa6{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa6 img{
-   width: 100%;
-   border-radius: 8px 8px 0 0; 
-}
-.casa6:hover{
-    transform: translateY(-5px); 
+.casa2 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
 }
 
-.casa7{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa7 img{
-   width: 100%;
-   border-radius: 8px 8px 0 0; 
-}
-.casa7:hover{
-    transform: translateY(-5px); 
-}
-.casa9{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa9 img{
-    width: 100%;
-    border-radius: 8px 8px 0 0; 
-}
-.casa9:hover{
-    transform: translateY(-5px);
+.casa2:hover {
+  transform: translateY(-5px);
 }
 
-.casa10{
-    background-color: rgb(238, 239, 253);
-    border: 1px solid rgb(180, 180, 239);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-}
-.casa10 img{
-    width: 100%;
-    border-radius: 8px 8px 0 0;  
-}
-.casa10:hover{
-    transform: translateY(-5px);
+.casa3 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
 }
 
-/*Nosotro*/
-.imagenfondo{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    object-fit: cover;
-    opacity: 5%;
-}
-.bueno{
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba( 0, 0, 0, 0.2);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #131c25;
-    font-size: 1.1rem;
-    text-align: left;
+.casa3 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
 }
 
-/*MediaAquerie*/
+.casa3:hover {
+  transform: translateY(-5px);
+}
 
-@media (max-width:500px){
- body{
+.casa4 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.casa4 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.casa4:hover {
+  transform: translateY(-5px);
+}
+
+.casa5 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.casa5 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.casa5:hover {
+  transform: translateY(-5px);
+}
+
+.casa6 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.casa6 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.casa6:hover {
+  transform: translateY(-5px);
+}
+
+.casa7 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.casa7 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.casa7:hover {
+  transform: translateY(-5px);
+}
+
+.casa9 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.casa9 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.casa9:hover {
+  transform: translateY(-5px);
+}
+
+.casa10 {
+  background-color: rgb(238, 239, 253);
+  border: 1px solid rgb(180, 180, 239);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.casa10 img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.casa10:hover {
+  transform: translateY(-5px);
+}
+
+/*...............Nosotros..........*/
+.imagenfondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 5%;
+}
+
+.bueno {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #131c25;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+/*...............Media Aquerie..........*/
+@media (max-width: 500px) {
+  body {
     flex-direction: column;
-} 
-  .oferta{
-   gap: 5px;
+  }
+  .oferta {
+    gap: 5px;
+  }
 }
-}
 
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */

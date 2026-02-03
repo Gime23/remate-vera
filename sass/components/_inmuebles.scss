@@ -2,7 +2,7 @@
 
 /*...............Inmuebles..........*/
 .inmueble{
-    color:  rgb(82, 168, 45)
+    color: rgb(39, 108, 12); 
 }
 .oferta{
     display: grid;
@@ -21,6 +21,13 @@
     padding: 0 20px;
 }
 
+.Inmueblespie p{
+    text-align: center
+}
+
+.inmenu{
+    margin-bottom: 30px
+}
 
 .casa{
  @include casa; 

@@ -38,7 +38,7 @@ border: 1px solid #f0f0f0;
     padding: 40px 20px;
     text-align: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: o auto;
 }
 .llegar h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -60,10 +60,17 @@ border: 1px solid #f0f0f0;
 }
 .redes{
     background-color: rgb(213, 215, 215);
-    margin: 0;
+    margin-bottom: 0px;
+    margin-top: 80px;
     padding: 5px;
     font-size: 1.5rem;
     text-decoration: underline;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
 ul{
@@ -87,9 +94,23 @@ li a{
     background-color:rgb(213, 215, 215);
     margin: 0;
     padding: 10px;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+    padding-bottom: 50px;
+
 }
 
 .social{
     text-decoration: none;
     text-align: justify;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
 }

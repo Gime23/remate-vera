@@ -94,6 +94,7 @@
 
 .piedepagina{
     background-color: rgb(213, 215, 215) ;
+
 }
 .piedepagina p{
     text-align: center;
@@ -102,4 +103,13 @@
 .pie{
     font-size: 1.5rem;
     text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
 }

@@ -37,7 +37,6 @@ border: 1px solid #f0f0f0;
 .llegar{
     padding: 40px 20px;
     text-align: center;
-    max-width: 1000px;
     margin: o auto;
 }
 .llegar h2{
@@ -53,25 +52,12 @@ border: 1px solid #f0f0f0;
 
 .llegar iframe{
    display: block;
-   margin: 0 auto;
+   margin: 0 auto 50px auto;
    border-radius: 10px;
    border: 1px solid #ccc;
    overflow: hidden;
 }
-.redes{
-    background-color: rgb(213, 215, 215);
-    margin-bottom: 0px;
-    margin-top: 80px;
-    padding: 5px;
-    font-size: 1.5rem;
-    text-decoration: underline;
-    width: 100%;
-    padding: 40px 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-}
+
 
 ul{
     background-color: rgb(213, 215, 215);
@@ -90,27 +76,28 @@ li a{
     text-decoration: none;
     color: rgb(10, 85, 6);
 }
-.atencion{
+
+.cont{
     background-color:rgb(213, 215, 215);
-    margin: 0;
-    padding: 10px;
     width: 100%;
-    padding: 40px 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 50vh;
-    padding-bottom: 50px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    padding-bottom: 100px;
+    min-height: 40vh;
+    margin-bottom: 0;
+    padding: 60px 20px;
+
 
 }
+.redes{
+    padding: 5px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
 
 .social{
     text-decoration: none;
-    text-align: justify;
-    width: 100%;
-    padding: 40px 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
+    text-align: justify;  
 }
+

@@ -20,6 +20,8 @@ body {
   background: linear-gradient(6deg, rgb(42, 123, 155) 0%, rgb(148, 166, 227) 34%, rgb(235, 236, 247) 56%);
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /*...............estilo del titulo..........*/
@@ -357,7 +359,6 @@ li {
 .llegar {
   padding: 40px 20px;
   text-align: center;
-  max-width: 1000px;
   margin: o auto;
 }
 
@@ -374,25 +375,10 @@ li {
 
 .llegar iframe {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   border-radius: 10px;
   border: 1px solid #ccc;
   overflow: hidden;
-}
-
-.redes {
-  background-color: rgb(213, 215, 215);
-  margin-bottom: 0px;
-  margin-top: 80px;
-  padding: 5px;
-  font-size: 1.5rem;
-  text-decoration: underline;
-  width: 100%;
-  padding: 40px 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px;
 }
 
 ul {
@@ -413,28 +399,26 @@ li a {
   color: rgb(10, 85, 6);
 }
 
-.atencion {
+.cont {
   background-color: rgb(213, 215, 215);
-  margin: 0;
-  padding: 10px;
   width: 100%;
-  padding: 40px 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 50vh;
-  padding-bottom: 50px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-bottom: 100px;
+  min-height: 40vh;
+  margin-bottom: 0;
+  padding: 60px 20px;
+}
+
+.redes {
+  padding: 5px;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 .social {
   text-decoration: none;
   text-align: justify;
-  width: 100%;
-  padding: 40px 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 20px;
 }
 
 /*...............Inmuebles..........*/
@@ -453,9 +437,6 @@ li a {
 
 .Inmueblespie {
   background-color: rgb(213, 215, 215);
-  max-width: 1200px;
-  margin: 0;
-  padding: 0 20px;
 }
 
 .Inmueblespie p {

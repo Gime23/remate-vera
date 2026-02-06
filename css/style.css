@@ -706,13 +706,9 @@ li a {
     margin: 0;
     text-align: center;
   }
-  .cartel {
-    width: 100vw;
+  .texto2 img {
+    max-width: 100%;
     height: auto;
-    display: block;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    max-width: none;
   }
 }
 

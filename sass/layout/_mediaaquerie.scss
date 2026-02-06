@@ -1,9 +1,31 @@
 /*...............Media Aquerie..........*/
 @media (max-width:500px){
- body{
+    body{
     flex-direction: column;
 } 
   .oferta{
    gap: 5px;
+}
+.nav{
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+}
+.destacado{
+   width: 90%;
+   margin-bottom: 20px;
+}
+footer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.piedepagina{
+   text-align: center;
+}
+.piedepagina li{
+   margin-bottom: 10px;
 }
 }

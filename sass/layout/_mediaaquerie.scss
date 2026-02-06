@@ -1,7 +1,10 @@
 /*...............Media Aquerie..........*/
-@media (max-width:500px){
-    body{
+@media (max-width:768px){
+  
+ body{
     flex-direction: column;
+    align-items: center;
+    top: 0;
 } 
   .oferta{
    gap: 5px;
@@ -9,7 +12,12 @@
 .nav{
    flex-direction: column;
    align-items: center;
-   gap: 15px;
+   top: 0;
+}
+.nav a{
+width: 100%;
+max-width: 200px;
+text-align: center;
 }
 .destacado{
    width: 90%;

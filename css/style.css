@@ -648,7 +648,7 @@ li a {
 }
 
 /*...............Media Aquerie..........*/
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   body {
     flex-direction: column;
     align-items: center;
@@ -657,15 +657,16 @@ li a {
   .oferta {
     gap: 5px;
   }
-  .nav {
+  nav {
     flex-direction: column;
     align-items: center;
-    top: 0;
+    gap: 10px;
   }
-  .nav a {
-    width: 100%;
+  nav a {
+    width: 90%;
     max-width: 200px;
     text-align: center;
+    padding: 15px;
   }
   .destacado {
     width: 90%;
@@ -683,6 +684,13 @@ li a {
   }
   .piedepagina li {
     margin-bottom: 10px;
+  }
+  main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
   }
 }
 

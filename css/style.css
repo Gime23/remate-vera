@@ -669,14 +669,19 @@ li a {
     text-align: center;
   }
   nav {
+    flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+    padding: 10px;
+    position: relative;
+    top: 0;
+    width: fit-content;
+    max-width: 60%;
+    margin: 0 auto;
   }
   nav a {
-    width: 90%;
-    max-width: 200px;
+    width: 60%;
     text-align: center;
-    padding: 15px;
   }
   .destacado {
     display: flex;
